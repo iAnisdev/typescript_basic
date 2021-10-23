@@ -1,3 +1,13 @@
+const usersList: [{fnmae:  string , age: number}] = [
+    {
+        fnmae: 'anis',
+        age: 12
+    }
+]
+
+
+
+
 type bankAccountType = {
     money: number,
     deposit: (amount:number) => void, 
